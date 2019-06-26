@@ -44,7 +44,7 @@ end
 T2{7} =NAME;
 T2{8} =EMAIL;
 T2{9} =currTime;
-headers = {'Folder','Video','Coin','randlist','Score','Appear','Clock','Name','Email'};
+headers = {'Folder','Video','Coin','randlist','Appear','Score','Name','Email','Clock'};
 T = [T1; T2];
 res=cell2table(T);
 res.Properties.VariableNames = headers;

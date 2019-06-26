@@ -4,7 +4,7 @@ dlg_title = 'Observer Details';
 num_lines = 1;
 global NAME;
 global EMAIL;
-defaultans = {'Fred','fred@ntnu.no'};
+defaultans = {'Fred','fred@gmail.com'};
 answer = inputdlg(prompt,dlg_title, num_lines,defaultans);
 O_Folder = './Original';
 TSR_Folder = './TSR';
